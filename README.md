@@ -16,9 +16,9 @@ git clone https://github.com/benjamingwynn/tfjs-converter-macos-arm.git
 
 ## 1. Use Python 3.11
 
-The docs say to use Python 3.6.8, ignore them as you won't be able to get a macos ARM version of python for 3.6.
+The docs say to use Python 3.6.8, ignore them as you Pip won't be able to get/build a macos ARM version of some native dependencies which are compatible with 3.6.
 
-Instead, with pyenv, use 3.11:
+Instead, with pyenv, use 3.11 so that pip can get/build compatible dependencies:
 
 ```sh
 pyenv install 3.11
